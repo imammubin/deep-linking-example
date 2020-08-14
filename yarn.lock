@@ -2657,9 +2657,9 @@ growly@^1.3.0:
   resolved "https://registry.yarnpkg.com/growly/-/growly-1.3.0.tgz#f10748cbe76af964b7c96c93c6bcc28af120c081"
   integrity sha1-8QdIy+dq+WS3yWyTxrzCivEgwIE=
 
-"hammerjs@git+https://github.com/naver/hammer.js.git":
+"hammerjs@https://github.com/naver/hammer.js.git":
   version "2.0.17-snapshot"
-  resolved "git+https://github.com/naver/hammer.js.git#54bc698b25edd6e1b76ca975ebaced5ce0467d51"
+  resolved "https://github.com/naver/hammer.js.git#54bc698b25edd6e1b76ca975ebaced5ce0467d51"
   dependencies:
     "@types/hammerjs" "^2.0.36"
 
@@ -4247,10 +4247,15 @@ react-native-gesture-handler@^1.5.6:
     invariant "^2.2.4"
     prop-types "^15.7.2"
 
-react-native-iphone-x-helper@^1.2.1:
+react-native-iphone-x-helper@^1.2.0, react-native-iphone-x-helper@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/react-native-iphone-x-helper/-/react-native-iphone-x-helper-1.2.1.tgz#645e2ffbbb49e80844bb4cbbe34a126fda1e6772"
   integrity sha512-/VbpIEp8tSNNHIvstuA3Swx610whci1Zpc9mqNkqn14DkMbw+ORviln2u0XyHG1kPvvwTNGZY6QpeFwxYaSdbQ==
+
+react-native-platform-touchable@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/react-native-platform-touchable/-/react-native-platform-touchable-1.1.1.tgz#fde4acc65eea585d28b164d0c3716a42129a68e4"
+  integrity sha1-/eSsxl7qWF0osWTQw3FqQhKaaOQ=
 
 react-native-reanimated@^1.7.0:
   version "1.7.0"
@@ -4348,6 +4353,14 @@ react-native@~0.61.4:
     scheduler "0.15.0"
     stacktrace-parser "^0.1.3"
     whatwg-fetch "^3.0.0"
+
+react-navigation-addon-search-layout@^0.14.1:
+  version "0.14.1"
+  resolved "https://registry.yarnpkg.com/react-navigation-addon-search-layout/-/react-navigation-addon-search-layout-0.14.1.tgz#51f87b47b902f80eee115e43e0c4e2f994867b8c"
+  integrity sha512-Wvc20yBSk2QnrvUTaWvtSyG9sE6kH0ZX/ww5ZMGAbHQrCeUrhoTVxIbNsLiyTJesvshPvvjicIdQQR7GUEjceA==
+  dependencies:
+    react-native-iphone-x-helper "^1.2.0"
+    react-native-platform-touchable "^1.1.1"
 
 react-refresh@^0.4.0:
   version "0.4.2"
